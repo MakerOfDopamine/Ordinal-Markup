@@ -101,7 +101,7 @@ const achieveData = [
       "GAS GAS",
       "GAS GAS GAS",
       "GAS GAS GAS GAS",
-      "Not a fart achievementt",
+      "Not a fart achievement",
     ],
     tooltip: [
       "Perform 1 Factor Boost",
@@ -358,10 +358,10 @@ const achieveData = [
       () => game.incrementy.gte("ee10"),
       () => game.incrementy.gte("eee10"),
       () => game.incrementy.gte(tenTetrTen),
-      () => false,
-      () => false,
-      () => false,
-      () => false,
+      () => game.incrementy.gte("10^^1e10"),
+      () => game.incrementy.gte("10^^^10"),
+      () => game.incrementy.gte("10^^^^10"),
+      () => game.incrementy.gte("10{10}10"),
       () => false
     ],
     name: [
@@ -370,11 +370,11 @@ const achieveData = [
       "Double Exponential!",
       "Triple Exponential!!!",
       "R.I.P. balancing",
+      "Are you kidding me?",
       "Way too much",
-      "Way too much",
-      "Way too much",
-      "Way too much",
-      "Way too much",
+      "This is too OP!",
+      "Why are you still playing?",
+      "ABSOLUTE INFINITY",
     ],
     tooltip: [
       "Enter the Incrementyverse",
@@ -382,10 +382,10 @@ const achieveData = [
       "Reach ee10 Incrementy",
       "Reach eee10 Incrementy",
       "Reach 10^^10 Incrementy",
-      "Reach Too Many Incrementy",
-      "Reach Too Many Incrementy",
-      "Reach Too Many Incrementy",
-      "Reach Too Many Incrementy",
+      "Reach 10^^1e10 Incrementy",
+      "Reach 10^^^10 Incrementy",
+      "Reach 10^^^^10 Incrementy",
+      "Reach 10{10}10 Incrementy",
       "Reach Too Many Incrementy"
     ]
   }
